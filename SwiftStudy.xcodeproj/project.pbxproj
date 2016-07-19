@@ -12,6 +12,10 @@
 		159AF9051D3DC37D0000E1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159AF9031D3DC37D0000E1D7 /* Main.storyboard */; };
 		159AF9071D3DC37D0000E1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159AF9061D3DC37D0000E1D7 /* Assets.xcassets */; };
 		159AF90A1D3DC37D0000E1D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159AF9081D3DC37D0000E1D7 /* LaunchScreen.storyboard */; };
+		159AF9121D3DCAA60000E1D7 /* YGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AF9111D3DCAA60000E1D7 /* YGBaseViewController.swift */; };
+		159AF9141D3DCAFE0000E1D7 /* YGHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AF9131D3DCAFE0000E1D7 /* YGHeader.swift */; };
+		159AF9181D3DD3760000E1D7 /* YGHistogramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AF9171D3DD3760000E1D7 /* YGHistogramVC.swift */; };
+		159AF91A1D3DD9880000E1D7 /* YGHistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AF9191D3DD9880000E1D7 /* YGHistogramView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		159AF9061D3DC37D0000E1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		159AF9091D3DC37D0000E1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		159AF90B1D3DC37D0000E1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159AF9111D3DCAA60000E1D7 /* YGBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGBaseViewController.swift; sourceTree = "<group>"; };
+		159AF9131D3DCAFE0000E1D7 /* YGHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGHeader.swift; sourceTree = "<group>"; };
+		159AF9171D3DD3760000E1D7 /* YGHistogramVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGHistogramVC.swift; sourceTree = "<group>"; };
+		159AF9191D3DD9880000E1D7 /* YGHistogramView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGHistogramView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				159AF9061D3DC37D0000E1D7 /* Assets.xcassets */,
 				159AF9081D3DC37D0000E1D7 /* LaunchScreen.storyboard */,
 				159AF90B1D3DC37D0000E1D7 /* Info.plist */,
+				159AF9111D3DCAA60000E1D7 /* YGBaseViewController.swift */,
+				159AF9131D3DCAFE0000E1D7 /* YGHeader.swift */,
+				159AF9171D3DD3760000E1D7 /* YGHistogramVC.swift */,
+				159AF9191D3DD9880000E1D7 /* YGHistogramView.swift */,
 			);
 			path = SwiftStudy;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				159AF9021D3DC37D0000E1D7 /* ViewController.swift in Sources */,
+				159AF91A1D3DD9880000E1D7 /* YGHistogramView.swift in Sources */,
+				159AF9121D3DCAA60000E1D7 /* YGBaseViewController.swift in Sources */,
+				159AF9141D3DCAFE0000E1D7 /* YGHeader.swift in Sources */,
 				159AF9001D3DC37D0000E1D7 /* AppDelegate.swift in Sources */,
+				159AF9181D3DD3760000E1D7 /* YGHistogramVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +300,7 @@
 				159AF9101D3DC37D0000E1D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

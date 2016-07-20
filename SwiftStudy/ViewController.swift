@@ -33,6 +33,7 @@ class ViewController: UIViewController {
             button.addTarget(self, action: "buttonPress:", forControlEvents: .TouchUpInside)
             self.view!.addSubview(button)
         }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     

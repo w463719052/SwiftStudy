@@ -89,10 +89,19 @@ class YGHistogramView: UIView {
 
     override func drawRect(rect: CGRect) {
         for i in 0 ..< ordinHeightArray.count {
-                let histogram = UIBezierPath(rect: CGRectMake(ViewWidth(self)/8*CGFloat(i+1), 200, 0, -CGFloat(ordinHeightArray[i] as! NSNumber)*5))
-                histogram.lineWidth = width;
+            let histogram = UIBezierPath(rect: CGRectMake(ViewWidth(self)/8*CGFloat(i+1), 200, 0, -CGFloat(ordinHeightArray[i] as! NSNumber)*5))
+            histogram.lineWidth = width;
+            RGBACOLOR(255, g: 255, b: 255, a: 0.8).setStroke()
+            histogram.stroke()
+            
+            if (i<ordinHeightArray.count-1) {
+                let histogram1 = UIBezierPath(rect: CGRectMake(ViewWidth(self)/8*CGFloat(i+1), 200-CGFloat(ordinHeightArray[i] as! NSNumber)*5, 0, 0))
+                histogram1.addLineToPoint(CGPointMake(ViewWidth(self)/8*CGFloat(i+2), 200-CGFloat(ordinHeightArray[i+1] as! NSNumber)*5))
+                histogram1.lineWidth = 2;
                 RGBACOLOR(255, g: 255, b: 255, a: 0.8).setStroke()
-                histogram.stroke()
+                histogram1.stroke()
+            }
+
         }
     }
 }
